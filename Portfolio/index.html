@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=f, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Neha</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="fa-solid fa-house"></i> Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="fa-solid fa-trophy"></i> Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="fa-solid fa-book-open"></i> Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="fa-solid fa-briefcase"></i> Services
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="fa-solid fa-image"></i> Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="contact" class="nav__link">
+                <i class="fa-solid fa-comment"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="nav__buttons">
+          <i class="fa-regular fa-moon" id="theme-button"></i>
+          <!-- <i class="fa-regular fa-sun" id="theme-button"></i> -->
+
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main-section -->
+    <main class="main"></main>
+
+    <!-- Home-section -->
+    <section class="home section" id="home">
+        <div class="home__container container grid section__border">
+          <div class="home__data grid">
+            <h1 class="home__title">
+              Hi, I'm Neha Singh! <br />
+               A skilled Frontend Developer <br />
+            </h1>
+            <div class="home__content grid">
+              <div class="home__photo">
+                <img src="img/Port-img.png" alt="home__perfil" />
+              </div>
+
+            <ul class="home__social">
+              <a
+                href="https://www.linkedin.com/in/neha-singh-81872624b/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/NehaSingh-0"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </ul>
+          </div>
+
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">BIOGRAPHY</h3>
+              <p class="home__info-description">
+                Hi, I'm Neha Singh , Frontend Developer. Passionate about
+                designing beautiful web interfaces.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">Email</h3>
+              <p class="home__info-description">
+                singhnini04@gmail.com
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">SERVICES</h3>
+              <p class="home__info-description">
+                Website Design<br />
+                Graphic Designer<br>
+                Content Writer
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">COMPLETED PROJECTS</h3>
+              <p class="home__info-description">05+</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  
+
+    <!-- Skill-section -->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">-- My Skills --</span>
+      <div class="skills__container container grid section__border">
+        <!-- skill 1 -->
+        <div class="skills__content">
+          <h3 class="skills__title">
+            <i class="fa-solid fa-code"></i> Technical Skills
+          </h3>
+          <div class="skills__info">
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="img/html.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">HTML</h3>
+              <span class="skills__subtitle">Advanced</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="img/css.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">CSS</h3>
+              <span class="skills__subtitle">Advanced</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="img/js.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">Javascript</h3>
+              <span class="skills__subtitle">Intermediate</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="img/react1.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">React</h3>
+              <span class="skills__subtitle">Basic</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="img/python.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">Python</h3>
+              <span class="skills__subtitle">Intermediate</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="img/GIT.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">Git</h3>
+              <span class="skills__subtitle">Intermediate</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="img/github.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">Git</h3>
+              <span class="skills__subtitle">Intermediate</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="img/canva.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">Canva</h3>
+              <span class="skills__subtitle">Intermediate</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- skill 2 -->
+        <div class="containerskill2">
+          <div class="skills__content">
+            <h3 class="skills_title1">
+              <i class="fa-solid fa-swatchbook"></i> Professional Skills
+            </h3>
+            <div class="radial-bars">
+              <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                  <circle
+                    class="progress-bar"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                  <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">Creativity</div>
+              </div>
+
+              <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                  <circle
+                    class="progress-bar"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                  <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">75%</div>
+                <div class="text">Communication</div>
+              </div>
+
+              <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                  <circle
+                    class="progress-bar"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                  <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">Problem solving</div>
+              </div>
+
+              <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                  <circle
+                    class="progress-bar"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                  <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">85%</div>
+                <div class="text">TeamWork</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Qualification section -->
+
+    <section class="qualification section" id="qualification">
+      <h2 class="section__title">Qualification</h2>
+      <span class="section__subtitle">-- Experience & Education --</span>
+      <div class="qualification__container container grid section__border">
+        <div class="timeline">
+          <div class="quali-cont L-cont">
+            <div class="quali-circle"></div>
+            <div class="qual-text-box">
+              <small
+                >2018 - 2019 <br />
+                <h1>Secondary School(10th)</h1></small
+              >
+              <p>From Yash Public Senior Secondary School, Ujjain(Nagda).</p>
+              <span class="L-cont-arrow"></span>
+            </div>
+          </div>
+
+          <div class="quali-cont R-cont">
+            <div class="quali-circle"></div>
+            <div class="qual-text-box">
+              <small
+                >2020 - 2021 <br />
+                <h1>Higher Secondary School(12th)</h1></small
+              >
+              <p>From AgoshDeep International Public School, Ujjain(Nagda).</p>
+              <span class="R-cont-arrow"></span>
+            </div>
+          </div>
+
+          <div class="quali-cont L-cont">
+            <div class="quali-circle"></div>
+            <div class="qual-text-box">
+              <small
+                >2021 - 2025 <br />
+                <h1>B.Tech In CSE, Sp: Artificial intelligence</h1></small
+              >
+              <p>From Medi-caps Unviversity, Indore.</p>
+              <span class="L-cont-arrow"></span>
+            </div>
+          </div>
+
+          <div class="quali-cont R-cont">
+            <div class="quali-circle"></div>
+            <div class="qual-text-box">
+              <small> 2023 - Present</small>
+              <h2>Frontend Web Developer</h2>
+              <p>
+                While immersed as a CSE student specializing in AI,I
+                unexpectedly found myself captivated by the realm of website
+                design. This newfound interest led me to embark on a journey
+                into the world of front-end development,where I eagerly began
+                acquiring the skills and knowledge necessary to excel in
+                crafting visually appealing and user-friendly web experiences.
+              </p>
+              <span class="R-cont-arrow"></span>
+            </div>
+          </div>
+
+          <div class="quali-cont L-cont">
+            <div class="quali-circle"></div>
+            <div class="qual-text-box">
+              <small> 2023 - Present</small>
+              <h2>Graphic Designer, Content Writer</h2>
+              <p>
+                I'm an integral part of my college's CSE Digital Marketing team,
+                where I contribute through content writing and poster design,
+                harmonizing technical expertise and creative expression for
+                effective communication.
+              </p>
+              <span class="L-cont-arrow"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section -->
+
+    <section class="services section" id="services">
+      <h2 class="section__title">Services</h2>
+      <span class="section__subtitle"> -- What i offer --</span>
+
+      <div class="services__container container grid section__border">
+        <div class="services__card">
+          <i class="fa-solid fa-id-badge"></i>
+          <h2 class="services__title">
+            Graphic <br />
+            Designer
+          </h2>
+          <p class="services_description">
+            Services that provides the best quality and at the request of the
+            client, with professional work and customer supprot.
+          </p>
+
+          <div class="services__border"></div>
+        </div>
+
+        <div class="services__card">
+          <i class="fa-solid fa-code"></i>
+          <h2 class="services__title">
+            Website <br />
+            Design
+          </h2>
+          <p class="services_description">
+            Services that provides the best quality and at the request of the
+            client, with professional work and customer supprot.
+          </p>
+
+          <div class="services__border"></div>
+        </div>
+
+        <div class="services__card">
+          <i class="fa-solid fa-file-pen"></i>
+          <h2 class="services__title">
+            Content <br />
+            Writer
+          </h2>
+          <p class="services_description">
+            Services that provides the best quality and at the request of the
+            client, with professional work and customer supprot.
+          </p>
+
+          <div class="services__border"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects section" id="projects">
+      <h2 class="section__title">Projects</h2>
+      <span class="section__subtitle">-- Most recent work --</span>
+
+      <div class="container section__border">
+        <div class="projects__container swiper">
+          <div class="swiper-wrapper">
+            <!-- project1 -->
+            <div class="projects__content swiper-slide">
+              <img src="img/project1.png" alt="projects image" />
+              <div>
+                <span class="projects__subtitle">Web</span>
+                <h1 class="projects__title">Amazon Clone</h1>
+                <a href="https://github.com/NehaSingh-0/Aamzon_Clone1" class="projects__button">
+                  View demo <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- project2-->
+            <div class="projects__content swiper-slide">
+              <img src="img/project 2.png" alt="projects image" />
+              <div>
+                <span class="projects__subtitle">Web</span>
+                <h1 class="projects__title">Icecream website</h1>
+                <a href="https://github.com/NehaSingh-0/OIBSIP" class="projects__button">
+                  View demo <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- project3 -->
+            <div class="projects__content swiper-slide">
+              <img src="img/project3.png" alt="projects image" />
+              <div>
+                <span class="projects__subtitle">Web</span>
+                <h1 class="projects__title">Temperature Conventor</h1>
+                <a href="https://github.com/NehaSingh-0/OIBSIP" class="projects__button">
+                  View demo <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- project4 -->
+            <div class="projects__content swiper-slide">
+              <img src="img/project 5.png" alt="projects image" />
+              <div>
+                <span class="projects__subtitle">Web</span>
+                <h1 class="projects__title">Digital Clock</h1>
+                <a href="https://github.com/NehaSingh-0/CodeClauseInternship_WebDevelopment" class="projects__button">
+                  View demo <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- project5 -->
+            <div class="projects__content swiper-slide">
+              <img src="img/project 4.png" alt="projects image" />
+              <div>
+                <span class="projects__subtitle">Web</span>
+                <h1 class="projects__title">To-Do List</h1>
+                <a href="https://github.com/NehaSingh-0/CodeClauseInternship_WebDevelopment" class="projects__button">
+                  View demo <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- swiper arrows -->
+          <div class="swiper-button-next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="fa-solid fa-chevron-left"></i>
+          </div>
+
+          <!-- swiper pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get in touch</span>
+      <div class="contact__container container grid section__border">
+        <div class="contact__content">
+          <h3 class="contact__title">
+            <i class="fa-regular fa-comment"></i> Let's Talk
+          </h3>
+
+          <div class="contact__info">
+            <div class="contact__data">
+              <span class="contact__data-title">Email :</span>
+              <span class="contact__data-info">singhnini04@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__content">
+          <h3 class="contact__title">
+            <i class="fa-solid fa-paper-plane"></i> Send me message
+          </h3>
+          <form action="" class="contact__form" id="contact-form">
+            <div class="contact__form-div">
+              <label class="contact__form-tag">Name</label>
+              <input
+                type="text"
+                name="user_name"
+                required
+                placeholder="Your name"
+                class="contact__form-input"
+                id="contact-name"
+              />
+            </div>
+
+            <div class="contact__form-div">
+              <label class="contact__form-tag">Email</label>
+              <input
+                type="email"
+                name="user_email"
+                required
+                placeholder="Email Id"
+                class="contact__form-input"
+                id="contact-email"
+              />
+            </div>
+
+            <div class="contact__form-div contact__form-area">
+              <label class="contact__form-tag">Any message</label>
+              <textarea
+                name="user_project"
+                placeholder="Write your message"
+                id="contact-project"
+                class="contact__form-input"
+              ></textarea>
+            </div>
+
+            <p class="contact__message" id="contact-message"></p>
+
+            <button type="submit" class="contact__button">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Neha Singh</h1>
+        <p>Frontend Developer</p>
+        <ul class="footer__list">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+          <li>
+            <a href="#skills" class="footer__link">Skills</a>
+          </li>
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://www.linkedin.com/in/neha-singh-81872624b/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/NehaSingh-0"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </ul>
+
+        <span class="footer__copy">
+          <i class="fa-regular fa-copyright"></i> Copyright 2023. Designed by
+          Neha Singh
+          <!-- <p> Designed by Neha Singh </p> -->
+        </span>
+      </div>
+    </footer>
+
+    <!-- scroll up -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-arrow-up-long"></i>
+    </a>
+
+    <!-- scrollreveal -->
+    <script src=".vscode/scroll reveal.js"></script>
+    <!-- swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Email js -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
